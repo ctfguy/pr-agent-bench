@@ -1,0 +1,177 @@
+.dockerignore
+  s_4b50f1ffd3fe4d::t_13a82b2c10463e 1-9
+.env.example
+  s_4b50f1ffd3fe4d::t_bb99b488ef0e3d 1-50
+.gitignore
+  s_4b50f1ffd3fe4d::t_46bc973a44afd6 1-7
+Dockerfile
+  s_4b50f1ffd3fe4d::t_33cbd8a94e9cf9 1-26
+Makefile
+  s_4b50f1ffd3fe4d::t_bd7ee485e28324 1-176
+README.md
+  s_4b50f1ffd3fe4d::t_c7fa44c74ab5d1 1-79
+docker-compose.infra.yml
+  s_4b50f1ffd3fe4d::t_c28a9460e6c5b1 1-265
+pyproject.toml
+  s_4b50f1ffd3fe4d::t_1c06892854df2b 1-22
+requirements.txt
+  s_4b50f1ffd3fe4d::t_56a2ca800ffc06 1-3
+src/advisory_miner/__init__.py
+  s_4b50f1ffd3fe4d::t_b160517ca1b26d 1-3
+src/advisory_miner/__main__.py
+  s_4b50f1ffd3fe4d::t_18e4d9168fcb3a 1-5
+src/advisory_miner/advisories.py
+  s_4b50f1ffd3fe4d::t_f1215f546f43cc 1-146
+src/advisory_miner/agents/__init__.py
+  s_4b50f1ffd3fe4d::t_f6b719fb6ec258 1
+src/advisory_miner/agents/advisory_parser.py
+  s_4b50f1ffd3fe4d::t_a66f0ab7acf7fb 1-160
+src/advisory_miner/agents/critic.py
+  s_4b50f1ffd3fe4d::t_e1c13496adbb2b 1-89
+src/advisory_miner/agents/evidence.py
+  s_4b50f1ffd3fe4d::t_321b547f3bdd25 1-190
+src/advisory_miner/agents/fix_finder.py
+  s_4b50f1ffd3fe4d::t_6caba5af1a6232 1-312
+src/advisory_miner/agents/fix_verifier.py
+  s_4b50f1ffd3fe4d::t_bb0c0f9891a798 1-274
+src/advisory_miner/agents/introducer_classifier.py
+  s_4b50f1ffd3fe4d::t_cd93316c45b367 1-294
+src/advisory_miner/agents/introducer_finder.py
+  s_4b50f1ffd3fe4d::t_2ca571ddf94dc4 1-447
+src/advisory_miner/agents/investigator.py
+  s_4b50f1ffd3fe4d::t_f5a31faa6b51cf 1-817
+src/advisory_miner/agents/langgraph_workflow.py
+  s_4b50f1ffd3fe4d::t_b5f38e1f518bad 1-33
+src/advisory_miner/agents/model_reviewer.py
+  s_4b50f1ffd3fe4d::t_932472a3884fa9 1-108
+src/advisory_miner/agents/orchestrator.py
+  s_4b50f1ffd3fe4d::t_645a256e273b01 1-329
+src/advisory_miner/agents/patterns.py
+  s_4b50f1ffd3fe4d::t_18c1c94bbaae60 1-200
+src/advisory_miner/agents/release_fix_finder.py
+  s_4b50f1ffd3fe4d::t_4369fb3812dd8f 1-178
+src/advisory_miner/agents/sanity_validator.py
+  s_4b50f1ffd3fe4d::t_208252e0ea1dee 1-105
+src/advisory_miner/agents/validator.py
+  s_4b50f1ffd3fe4d::t_3ccf0427ec1b86 1-173
+src/advisory_miner/cli.py
+  s_4b50f1ffd3fe4d::t_09b83cf16dfaca 1-448
+src/advisory_miner/collector.py
+  s_4b50f1ffd3fe4d::t_8632e794a32173 1-60
+src/advisory_miner/confidence.py
+  s_4b50f1ffd3fe4d::t_b3854a2f9c30f4 1-52
+src/advisory_miner/config.py
+  s_4b50f1ffd3fe4d::t_10d1439cf0cc73 1-43
+src/advisory_miner/dockerize/__init__.py
+  s_4b50f1ffd3fe4d::t_d2da1d231f2d16 1-16
+src/advisory_miner/dockerize/census.py
+  s_4b50f1ffd3fe4d::t_7d5e619be6931b 1-82
+src/advisory_miner/dockerize/detect.py
+  s_4b50f1ffd3fe4d::t_b2c20d310fbd84 1-326
+src/advisory_miner/dockerize/generator.py
+  s_4b50f1ffd3fe4d::t_aad6c7ff51144d 1-90
+src/advisory_miner/dockerize/runner.py
+  s_4b50f1ffd3fe4d::t_257d1ecf8dce64 1-293
+src/advisory_miner/dockerize/selector.py
+  s_4b50f1ffd3fe4d::t_19ec210cf16f4f 1-121
+src/advisory_miner/enrichers/__init__.py
+  s_4b50f1ffd3fe4d::t_6a1b5c73924200 1-11
+src/advisory_miner/enrichers/enrichment.py
+  s_4b50f1ffd3fe4d::t_094c14552029e7 1-182
+src/advisory_miner/eval.py
+  s_4b50f1ffd3fe4d::t_c88f039596949a 1-393
+src/advisory_miner/extractors.py
+  s_4b50f1ffd3fe4d::t_99381ad9dc6264 1-286
+src/advisory_miner/github_client.py
+  s_4b50f1ffd3fe4d::t_09891461793f45 1-245
+src/advisory_miner/langfuse_tracing.py
+  s_4b50f1ffd3fe4d::t_ae909adbbf29df 1-222
+src/advisory_miner/models.py
+  s_4b50f1ffd3fe4d::t_039452da6d9239 1-189
+src/advisory_miner/openai_client.py
+  s_4b50f1ffd3fe4d::t_ee58bf7f35634a 1-357
+src/advisory_miner/persistence.py
+  s_4b50f1ffd3fe4d::t_fa4fa1970a92a7 1-146
+src/advisory_miner/runtime.py
+  s_4b50f1ffd3fe4d::t_8467e701094f92 1-166
+src/advisory_miner/storage/__init__.py
+  s_4b50f1ffd3fe4d::t_a65213ffde010f 1-3
+src/advisory_miner/storage/postgres.py
+  s_4b50f1ffd3fe4d::t_7c05b356ee2bdd 1-193
+src/advisory_miner/temporal_app.py
+  s_4b50f1ffd3fe4d::t_9ad2e82ad55116 1-216
+src/advisory_miner/tools/__init__.py
+  s_4b50f1ffd3fe4d::t_8d6b451f5f0ddc 1
+src/advisory_miner/tools/git_tools.py
+  s_4b50f1ffd3fe4d::t_909b2e9725f753 1-490
+src/advisory_miner/tools/github_tools.py
+  s_4b50f1ffd3fe4d::t_c1891e694d2aa0 1-45
+test_dataset/advisories_with_repos.json
+  s_4b50f1ffd3fe4d::t_2b9d25be7fe185 1-1710
+test_dataset/holdout_labels.json
+  s_4b50f1ffd3fe4d::t_37a798d124be11 1
+test_dataset/labeled_input.json
+  s_4b50f1ffd3fe4d::t_7c593fc901f3b8 1-1795
+test_dataset/labels.json
+  s_4b50f1ffd3fe4d::t_04bbf242ec3645 1-122
+test_dataset/manifest.json
+  s_4b50f1ffd3fe4d::t_8becbbe31bb69e 1-450
+tests/test_advisory_parser.py
+  s_4b50f1ffd3fe4d::t_f02a212e39a643 1-127
+tests/test_analysis.py
+  s_4b50f1ffd3fe4d::t_2294b1d8d21f71 1-97
+tests/test_collector.py
+  s_4b50f1ffd3fe4d::t_c7ed6e66e869a2 1-232
+tests/test_confidence.py
+  s_4b50f1ffd3fe4d::t_a8aab98e025d21 1-139
+tests/test_dockerize.py
+  s_4b50f1ffd3fe4d::t_7f5860fc43d6a4 1-273
+tests/test_enrichment.py
+  s_4b50f1ffd3fe4d::t_b5a206f7162594 1-157
+tests/test_eval.py
+  s_4b50f1ffd3fe4d::t_cc571eea0fb4ff 1-177
+tests/test_fix_verifier.py
+  s_4b50f1ffd3fe4d::t_03735cded61e32 1-208
+tests/test_framework_integrations.py
+  s_4b50f1ffd3fe4d::t_a9dd3b56b3fe24 1-110
+tests/test_git_tools.py
+  s_4b50f1ffd3fe4d::t_823a9adca85fd8 1-160
+tests/test_introducer_classifier.py
+  s_4b50f1ffd3fe4d::t_8796f8268aa990 1-144
+tests/test_introducer_finder.py
+  s_4b50f1ffd3fe4d::t_254af0d3c4c9cb 1-112
+tests/test_investigator.py
+  s_4b50f1ffd3fe4d::t_7ed415f122abd0 1-294
+tests/test_langgraph_workflow.py
+  s_4b50f1ffd3fe4d::t_47af36bb205133 1-21
+tests/test_model_reviewer.py
+  s_4b50f1ffd3fe4d::t_098b1313fec05d 1-73
+tests/test_orchestrator_parallel.py
+  s_4b50f1ffd3fe4d::t_d38c724a5584b2 1-135
+tests/test_persistence.py
+  s_4b50f1ffd3fe4d::t_4967b949fb5ef7 1-36
+tests/test_release_fix_finder.py
+  s_4b50f1ffd3fe4d::t_3bfe5f4616d2a8 1-89
+tests/test_runtime.py
+  s_4b50f1ffd3fe4d::t_494d84493251a8 1-84
+tests/test_validator.py
+  s_4b50f1ffd3fe4d::t_468d4ab41fb9e5 1-143
+uv.lock
+  s_4b50f1ffd3fe4d::t_35f4dbc07f7bb4 1-1134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "4e5fa9399cf9392d313ce65623d8c27ec24e8473",
+  "prompts": {},
+  "sessions": {
+    "s_4b50f1ffd3fe4d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d22f0819-46e4-48cc-af9e-937d8f601a04",
+        "model": "unknown"
+      },
+      "human_author": "ctfguy <ctfguy@ctfguy.>"
+    }
+  }
+}
