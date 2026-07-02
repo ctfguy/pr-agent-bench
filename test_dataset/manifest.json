@@ -1,0 +1,450 @@
+[
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-5121"
+    ],
+    "ghsa_id": "GHSA-2vwv-vqpv-v8vc",
+    "pull_requests": [
+      "libarchive/libarchive#2934"
+    ],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-5121",
+      "https://github.com/libarchive/libarchive/pull/2934",
+      "https://access.redhat.com/security/cve/CVE-2026-5121",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2452945",
+      "https://github.com/advisories/GHSA-2vwv-vqpv-v8vc",
+      "https://access.redhat.com/errata/RHSA-2026:8510",
+      "https://access.redhat.com/errata/RHSA-2026:8517",
+      "https://access.redhat.com/errata/RHSA-2026:8521",
+      "https://access.redhat.com/errata/RHSA-2026:8534",
+      "https://access.redhat.com/errata/RHSA-2026:8867",
+      "https://access.redhat.com/errata/RHSA-2026:8864",
+      "https://access.redhat.com/errata/RHSA-2026:8873",
+      "https://access.redhat.com/errata/RHSA-2026:8908",
+      "https://access.redhat.com/errata/RHSA-2026:8866",
+      "https://access.redhat.com/errata/RHSA-2026:9026",
+      "https://access.redhat.com/errata/RHSA-2026:9592",
+      "https://access.redhat.com/errata/RHSA-2026:9832",
+      "https://access.redhat.com/errata/RHSA-2026:10065",
+      "https://access.redhat.com/errata/RHSA-2026:8944",
+      "https://access.redhat.com/errata/RHSA-2026:11768",
+      "https://access.redhat.com/errata/RHSA-2026:10097",
+      "https://access.redhat.com/errata/RHSA-2026:13812",
+      "https://access.redhat.com/errata/RHSA-2026:14937",
+      "https://access.redhat.com/errata/RHSA-2026:12274",
+      "https://access.redhat.com/errata/RHSA-2026:12071",
+      "https://access.redhat.com/errata/RHSA-2026:16174",
+      "https://access.redhat.com/errata/RHSA-2026:15087",
+      "https://access.redhat.com/errata/RHSA-2026:14773",
+      "https://access.redhat.com/errata/RHSA-2026:16030",
+      "https://access.redhat.com/errata/RHSA-2026:16009",
+      "https://access.redhat.com/errata/RHSA-2026:16008",
+      "https://access.redhat.com/errata/RHSA-2026:17596",
+      "https://access.redhat.com/errata/RHSA-2026:19725",
+      "https://access.redhat.com/errata/RHSA-2026:19724",
+      "https://access.redhat.com/errata/RHSA-2026:20040"
+    ],
+    "repositories": [
+      "libarchive/libarchive"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "A flaw was found in libarchive. On 32-bit systems, an integer overflow vulnerability exists in..."
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-9739"
+    ],
+    "ghsa_id": "GHSA-7pf3-8xx7-rvhf",
+    "pull_requests": [
+      "googleapis/mcp-toolbox#3054"
+    ],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-9739",
+      "https://github.com/googleapis/mcp-toolbox/issues/3053",
+      "https://github.com/googleapis/mcp-toolbox/pull/3054",
+      "https://github.com/advisories/GHSA-7pf3-8xx7-rvhf"
+    ],
+    "repositories": [
+      "googleapis/mcp-toolbox"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "Vulnerable to DNS rebinding attacks when using SSE (http://b/499408790). During the beta phase,..."
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-46621"
+    ],
+    "ghsa_id": "GHSA-2g95-6x5q-xjwj",
+    "pull_requests": [],
+    "references": [
+      "https://github.com/yamcs/yamcs/security/advisories/GHSA-2g95-6x5q-xjwj",
+      "https://github.com/advisories/GHSA-2g95-6x5q-xjwj"
+    ],
+    "repositories": [
+      "yamcs/yamcs"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/yamcs/yamcs",
+    "summary": "Yamcs Vulnerable to Authenticated Remote Code Execution (RCE) via Jython Algorithm Code Injection"
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-46562"
+    ],
+    "ghsa_id": "GHSA-vmwp-vh32-rj75",
+    "pull_requests": [],
+    "references": [
+      "https://github.com/yamcs/yamcs/security/advisories/GHSA-vmwp-vh32-rj75",
+      "https://github.com/advisories/GHSA-vmwp-vh32-rj75"
+    ],
+    "repositories": [
+      "user-attachments/assets",
+      "yamcs/yamcs"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/yamcs/yamcs",
+    "summary": "Yamcs Vulnerable to Remote Code Execution via Mission Database algorithm override"
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-31235"
+    ],
+    "ghsa_id": "GHSA-g82g-j283-hj97",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-31235",
+      "https://github.com/aleju/imgaug",
+      "https://www.notion.so/CVE-2026-31235-35d1e139318881efb701d814228424a9",
+      "https://github.com/advisories/GHSA-g82g-j283-hj97"
+    ],
+    "repositories": [
+      "aleju/imgaug"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/aleju/imgaug",
+    "summary": "imgaug contains an insecure deserialization vulnerability in BackgroundAugmenter class within multicore.py module"
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-31236"
+    ],
+    "ghsa_id": "GHSA-g76p-4vg5-f4qh",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-31236",
+      "https://github.com/simonw/llm",
+      "https://www.notion.so/CVE-2026-31236-35d1e139318881a4a0f1fffcf671f7e3",
+      "https://github.com/advisories/GHSA-g76p-4vg5-f4qh"
+    ],
+    "repositories": [
+      "simonw/llm"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/simonw/llm",
+    "summary": "llm CLI tool contains a code injection vulnerability via `--functions` command-line argument"
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-31237"
+    ],
+    "ghsa_id": "GHSA-wcr3-gm9f-f87q",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-31237",
+      "https://github.com/ludwig-ai/ludwig",
+      "https://www.notion.so/CVE-2026-31237-35d1e139318881fb95a2ee7c5d0e17d8",
+      "https://github.com/advisories/GHSA-wcr3-gm9f-f87q"
+    ],
+    "repositories": [
+      "ludwig-ai/ludwig"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/ludwig-ai/ludwig",
+    "summary": "Ludwig framework is vulnerable to insecure deserialization through its predict() method."
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-31238"
+    ],
+    "ghsa_id": "GHSA-xp5q-5q7g-q26r",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-31238",
+      "https://github.com/ludwig-ai/ludwig",
+      "https://www.notion.so/CVE-2026-31238-35d1e1393188819ea77ee98ca85a2878",
+      "https://github.com/advisories/GHSA-xp5q-5q7g-q26r"
+    ],
+    "repositories": [
+      "ludwig-ai/ludwig"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/ludwig-ai/ludwig",
+    "summary": "Ludwig framework is vulnerable to insecure deserialization in its model serving component"
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-31239"
+    ],
+    "ghsa_id": "GHSA-pq2f-x424-6fjm",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-31239",
+      "https://github.com/state-spaces/mamba",
+      "https://www.notion.so/CVE-2026-31239-35d1e1393188810d9baedfbd8363f396",
+      "https://github.com/advisories/GHSA-pq2f-x424-6fjm"
+    ],
+    "repositories": [
+      "state-spaces/mamba"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/state-spaces/mamba",
+    "summary": "mamba language model framework vulnerable to insecure deserialization when loading pre-trained models from HuggingFace Hub"
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-31233"
+    ],
+    "ghsa_id": "GHSA-r6hf-g5x6-7pv9",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-31233",
+      "https://github.com/guardrails-ai/guardrails",
+      "https://www.notion.so/CVE-2026-31233-35d1e13931888142a954fb3f50ee0c94",
+      "https://github.com/advisories/GHSA-r6hf-g5x6-7pv9"
+    ],
+    "repositories": [
+      "guardrails-ai/guardrails"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/guardrails-ai/guardrails",
+    "summary": "Guardrails AI contains a code injection vulnerability in its Hub package installation mechanism"
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-31234"
+    ],
+    "ghsa_id": "GHSA-mf8f-x4r3-jm8c",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-31234",
+      "https://github.com/horovod/horovod",
+      "https://www.notion.so/CVE-2026-31234-35d1e139318881d585cde508b9d2453c",
+      "https://github.com/advisories/GHSA-mf8f-x4r3-jm8c"
+    ],
+    "repositories": [
+      "horovod/horovod"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/horovod/horovod",
+    "summary": "Horovod contains an insecure deserialization vulnerability in its KVStore HTTP server component"
+  },
+  {
+    "commits": [
+      "jib/archive-tar-new@17c873492a05eddc0de18c1485e0b2cccd5a9158"
+    ],
+    "cve_ids": [
+      "CVE-2026-42496"
+    ],
+    "ghsa_id": "GHSA-8p37-q9qq-hgx8",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-42496",
+      "https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch",
+      "https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes",
+      "https://www.cve.org/CVERecord?id=CVE-2026-42497",
+      "https://github.com/advisories/GHSA-8p37-q9qq-hgx8"
+    ],
+    "repositories": [
+      "jib/archive-tar-new"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets..."
+  },
+  {
+    "commits": [
+      "Perl/perl5@5e7f119eb2bb1181be908701f22bf7068e722f1c"
+    ],
+    "cve_ids": [
+      "CVE-2026-8376"
+    ],
+    "ghsa_id": "GHSA-mpxq-89h3-qc47",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-8376",
+      "https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch",
+      "http://www.openwall.com/lists/oss-security/2026/05/26/1",
+      "https://github.com/advisories/GHSA-mpxq-89h3-qc47"
+    ],
+    "repositories": [
+      "Perl/perl5"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with..."
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-48691"
+    ],
+    "ghsa_id": "GHSA-pjmc-gjwh-qr2w",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-48691",
+      "https://github.com/pavel-odintsov/fastnetmon",
+      "https://github.com/pavel-odintsov/fastnetmon/blob/master/src/bgp_protocol.hpp",
+      "https://lorikeetsecurity.com/blog/fastnetmon-cve-2026-48691-bgp-as-path-overflow",
+      "https://github.com/advisories/GHSA-pjmc-gjwh-qr2w"
+    ],
+    "repositories": [
+      "pavel-odintsov/fastnetmon"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "FastNetMon Community Edition through 1.2.9 contains an integer overflow in the BGP AS_PATH..."
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-25879"
+    ],
+    "ghsa_id": "GHSA-mxfr-6hcw-j9rq",
+    "pull_requests": [],
+    "references": [
+      "https://github.com/langroid/langroid/security/advisories/GHSA-mxfr-6hcw-j9rq",
+      "https://github.com/advisories/GHSA-mxfr-6hcw-j9rq"
+    ],
+    "repositories": [
+      "user-attachments/assets",
+      "langroid/langroid"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/langroid/langroid",
+    "summary": "Langroid has Prompt to SQL Injection, Leading to RCE"
+  },
+  {
+    "commits": [
+      "libwww-perl/HTTP-Daemon@945d35141d94490f749640bd4390acd6a2193995"
+    ],
+    "cve_ids": [
+      "CVE-2026-8450"
+    ],
+    "ghsa_id": "GHSA-3hc6-3p33-wq57",
+    "pull_requests": [
+      "libwww-perl/HTTP-Daemon#89"
+    ],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-8450",
+      "https://github.com/libwww-perl/HTTP-Daemon/pull/89",
+      "https://github.com/libwww-perl/HTTP-Daemon/commit/945d35141d94490f749640bd4390acd6a2193995.patch",
+      "https://metacpan.org/release/OALDERS/HTTP-Daemon-6.17/changes",
+      "http://www.openwall.com/lists/oss-security/2026/05/27/5",
+      "https://github.com/advisories/GHSA-3hc6-3p33-wq57"
+    ],
+    "repositories": [
+      "libwww-perl/HTTP-Daemon"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "HTTP::Daemon versions before 6.17 for Perl allow OS command injection via send_file().\n\nsend_file..."
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-45618"
+    ],
+    "ghsa_id": "GHSA-gf2q-c269-pqgc",
+    "pull_requests": [],
+    "references": [
+      "https://github.com/harttle/liquidjs/security/advisories/GHSA-gf2q-c269-pqgc",
+      "https://github.com/harttle/liquidjs/releases/tag/v10.26.0",
+      "https://github.com/advisories/GHSA-gf2q-c269-pqgc"
+    ],
+    "repositories": [
+      "user-attachments/assets",
+      "harttle/liquidjs"
+    ],
+    "severity": "critical",
+    "source_code_location": "https://github.com/harttle/liquidjs",
+    "summary": "LiquidJS is Vulnerable to Remote Code Execution"
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-48687"
+    ],
+    "ghsa_id": "GHSA-qx97-6jw5-h44w",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-48687",
+      "https://github.com/pavel-odintsov/fastnetmon",
+      "https://github.com/pavel-odintsov/fastnetmon/blob/master/src/juniper_plugin/fastnetmon_juniper.php",
+      "https://lorikeetsecurity.com/blog/fastnetmon-cve-2026-48687-juniper-cmd-injection",
+      "https://github.com/advisories/GHSA-qx97-6jw5-h44w"
+    ],
+    "repositories": [
+      "pavel-odintsov/fastnetmon"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "FastNetMon Community Edition through 1.2.9 contains an OS command injection vulnerability in the..."
+  },
+  {
+    "commits": [
+      "webmin/webmin@cf432879a14568c4bb44cd2f9e5a9bd0e168edc1"
+    ],
+    "cve_ids": [
+      "CVE-2026-49103"
+    ],
+    "ghsa_id": "GHSA-6m8g-7xrr-8q5f",
+    "pull_requests": [],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-49103",
+      "https://github.com/webmin/webmin/commit/cf432879a14568c4bb44cd2f9e5a9bd0e168edc1",
+      "https://github.com/webmin/webmin/compare/2.630...2.640",
+      "https://github.com/advisories/GHSA-6m8g-7xrr-8q5f"
+    ],
+    "repositories": [
+      "webmin/webmin"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "Webmin before 2.640 does not safely construct a filename for saving of an attachment within the..."
+  },
+  {
+    "commits": [],
+    "cve_ids": [
+      "CVE-2026-8054"
+    ],
+    "ghsa_id": "GHSA-jpx3-25r2-jq5g",
+    "pull_requests": [
+      "dotCMS/core#35553"
+    ],
+    "references": [
+      "https://nvd.nist.gov/vuln/detail/CVE-2026-8054",
+      "https://github.com/dotCMS/core/pull/35553",
+      "https://dev.dotcms.com/docs/known-security-issues?issueNumber=SI-75",
+      "https://github.com/advisories/GHSA-jpx3-25r2-jq5g"
+    ],
+    "repositories": [
+      "dotCMS/core"
+    ],
+    "severity": "critical",
+    "source_code_location": "",
+    "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in the..."
+  }
+]

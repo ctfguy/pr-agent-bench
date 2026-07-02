@@ -1,0 +1,122 @@
+[
+  {
+    "ghsa_id": "GHSA-v65g-f3cj-fjp4",
+    "repository": "ethereum/eth-account",
+    "expected_fix_commit": "70f89be700df0d5f08ef696252c88741f8414060",
+    "expected_fix_pr": "ethereum/eth-account#182",
+    "expected_introduced_commit": "86cf5ab910f8afee59257d7aff841ec1c566b2fc",
+    "expected_introduced_pr": null,
+    "category": "refactor_blindness",
+    "notes": "Advisory directly references the fix commit. True introducer is the 'Add error handling and validations' commit; classical SZZ lands on the later 'Move structured_data' refactor (a837cad...). Manually verified by user 2026-05-28."
+  },
+  {
+    "ghsa_id": "GHSA-jpx3-25r2-jq5g",
+    "repository": "dotCMS/core",
+    "expected_fix_commit": "10dcb6230e390a89ffdfd8b5fe7cf60381e40bb6",
+    "expected_fix_pr": "dotCMS/core#35553",
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "direct_fix_pr",
+    "notes": "Advisory directly references PR #35553; the SQL-injection / auth fix in AuditPublishingResource sits at this commit. Introducer not yet labeled."
+  },
+  {
+    "ghsa_id": "GHSA-3hc6-3p33-wq57",
+    "repository": "libwww-perl/HTTP-Daemon",
+    "expected_fix_commit": "945d35141d94490f749640bd4390acd6a2193995",
+    "expected_fix_pr": "libwww-perl/HTTP-Daemon#89",
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "direct_fix_commit_and_pr",
+    "notes": "Advisory references both the .patch commit and the PR explicitly."
+  },
+  {
+    "ghsa_id": "GHSA-mpxq-89h3-qc47",
+    "repository": "Perl/perl5",
+    "expected_fix_commit": "5e7f119eb2bb1181be908701f22bf7068e722f1c",
+    "expected_fix_pr": null,
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "direct_fix_commit",
+    "notes": "Advisory references the .patch commit directly. No PR linked in advisory."
+  },
+  {
+    "ghsa_id": "GHSA-6m8g-7xrr-8q5f",
+    "repository": "webmin/webmin",
+    "expected_fix_commit": "cf432879a14568c4bb44cd2f9e5a9bd0e168edc1",
+    "expected_fix_pr": null,
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "direct_fix_commit",
+    "notes": "Advisory references the fix commit directly."
+  },
+  {
+    "ghsa_id": "GHSA-8p37-q9qq-hgx8",
+    "repository": "jib/archive-tar-new",
+    "expected_fix_commit": "17c873492a05eddc0de18c1485e0b2cccd5a9158",
+    "expected_fix_pr": null,
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "direct_fix_commit",
+    "notes": "Archive::Tar Perl module; advisory references the .patch commit directly."
+  },
+  {
+    "ghsa_id": "GHSA-2vwv-vqpv-v8vc",
+    "repository": "libarchive/libarchive",
+    "expected_fix_commit": null,
+    "expected_fix_pr": "libarchive/libarchive#2934",
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "direct_fix_pr",
+    "notes": "Advisory references PR #2934. fix_commit not yet hand-labeled (would require selecting the fix commit among the PR's commits)."
+  },
+  {
+    "ghsa_id": "GHSA-7pf3-8xx7-rvhf",
+    "repository": "googleapis/mcp-toolbox",
+    "expected_fix_commit": null,
+    "expected_fix_pr": "googleapis/mcp-toolbox#3054",
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "direct_fix_pr",
+    "notes": "Advisory references PR #3054 (DNS rebinding protection). fix_commit not yet hand-labeled."
+  },
+  {
+    "ghsa_id": "GHSA-gf2q-c269-pqgc",
+    "repository": "harttle/liquidjs",
+    "expected_fix_commit": null,
+    "expected_fix_pr": null,
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "release_only",
+    "notes": "Advisory references release tag v10.26.0 but no PR/commit. Current extractor incorrectly picks 'user-attachments/assets' as the repo (extractor bug). Tool should still resolve harttle/liquidjs via the security advisory URL."
+  },
+  {
+    "ghsa_id": "GHSA-2g95-6x5q-xjwj",
+    "repository": "yamcs/yamcs",
+    "expected_fix_commit": null,
+    "expected_fix_pr": null,
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "search_required",
+    "notes": "Advisory only points to its own GHSA page; tool must resolve the repo from the security/advisories URL and likely use search/tag-bracket to find the fix."
+  },
+  {
+    "ghsa_id": "GHSA-g76p-4vg5-f4qh",
+    "repository": "simonw/llm",
+    "expected_fix_commit": null,
+    "expected_fix_pr": null,
+    "expected_introduced_commit": null,
+    "expected_introduced_pr": null,
+    "category": "search_required",
+    "notes": "Code-injection in `llm --functions`. No direct fix ref in advisory; needs GH search or tag-bracket."
+  },
+  {
+    "ghsa_id": "GHSA-h295-pfx3-r298",
+    "repository": "robrwo/perl-Crypt-SaltedHash",
+    "expected_fix_commit": "9b68437d2cd420b819b3a795474c3870338d38d5",
+    "expected_fix_pr": null,
+    "expected_introduced_commit": "5946c6ec6a36efa5403df3f63a693930a85f31c6",
+    "expected_introduced_pr": null,
+    "category": "initial_import_introducer",
+    "notes": "Crypt::SaltedHash for Perl used non-cryptographic rand() for salt generation. Fix replaces with Crypt::SysRandom. Manually traced 2026-05-28: the vulnerable rand()-based salt loop existed at the initial CPAN import commit 5946c6e ('initial import of Crypt-SaltedHash 0.05'). Edge case: introducer is the repo's first commit."
+  }
+]

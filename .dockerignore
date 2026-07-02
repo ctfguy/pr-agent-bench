@@ -1,0 +1,9 @@
+.cache
+.env
+.git
+.venv
+__pycache__
+*.pyc
+results
+agent-tools
+PROJECT_WORKFLOWS.md

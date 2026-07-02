@@ -1,0 +1,7 @@
+.cache/
+.venv/
+.env
+.github_token
+__pycache__/
+*.pyc
+results/
